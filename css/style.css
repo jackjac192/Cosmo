@@ -1,0 +1,316 @@
+body{
+	padding-top: 90px;
+}
+
+#idformImp{
+    display: none;
+}
+
+
+#mySelect {
+    display: block !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    width: 100% !important;
+    height: 30px !important;
+    border: 0px solid #eee !important;
+    border-bottom: 1px solid #ccc;
+    border: 0px solid #ccc !important;
+    border-bottom: 1px solid #eee !important;
+    margin-top: 15px !important;
+    background-color: transparent !important;
+}
+
+.pagination li{
+    display: inline-block;
+    padding: 10px;
+    background-color: #eee;
+}
+
+.pagination li.active a{
+   color: black !important;
+    background-color: #eee;
+}
+
+.divSubmit > [type=submit]
+{
+  padding: 0px 20px !important;
+  padding-bottom: 20px !important;
+  height: 60px;
+  display: block;
+  margin: 0px auto !important;
+
+}
+.error_msg{
+    color: #D8000C;
+    background-color: #FFBABA;
+    margin:0px;
+    position: relative;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+.containerr{
+    padding-left: 100px !important;
+}
+
+h1,h2,h3,h4,h5{
+    text-align: center;
+}
+
+.sectiongris{
+    padding: 40px 25px;
+    background-color: #eee;
+    margin-top: 0px;
+    
+}
+
+.sectionwhite{
+    padding: 40px 25px;
+    background-color: #fff;
+    margin-top: 0px;
+    border-radius: 5px;
+}
+
+
+
+.tituloReporte h1[data-target="reg_reporte"]{
+    background-color:  #fff !important;
+    padding: 10px;
+    color: #102C54;
+    border-bottom: 2px solid #102C54 !important;
+    text-transform: uppercase;
+    
+}
+
+.tituloReporte h1[data-target="list_planillas"]{
+    background-color:  #fff !important;
+    padding: 10px;
+    color: #0E294B;
+    border-bottom: 2px solid #0E294B!important;
+    text-transform: uppercase;
+    
+}
+
+.tituloReporte h1[data-target="edit_reportes"]{
+    background-color:  #fff !important;
+    padding: 10px;
+    color: #063971;
+    border-bottom: 2px solid #063971 !important;
+    text-transform: uppercase;
+    
+}
+
+
+
+
+
+.subtitulo{
+    padding: 10px;
+    margin-top: 30px;
+    border-bottom: 2px solid #4285f4;
+    background-color:  #fff !important;
+}
+
+.tituloReporte h1{
+    font-weight: 500 !important;
+    color: #000;
+}
+
+.subtitulo h3{
+    font-weight: 500 !important;
+    color: #373a3c;
+}
+
+.tituloImprimir{
+
+    padding: 10px;
+    margin-top: 30px;
+    
+    border-bottom: 0px solid #4285f4;
+    background-color:  #fff !important;
+    background: #001a88 !important;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+.md-form span.errors{
+    position: absolute !important;
+    top:55px !important;
+    color: red !important;
+    font-size: 13px;
+    font-weight: 500 !important;
+}
+
+#btnGuardar{
+    display: none;
+
+}
+
+.table-planillas{
+    font-size: 13px !important;
+}
+
+
+
+
+
+.content-form-login{
+	max-width:600px;
+	display: block;
+	margin: 5px auto;
+	border: 3px solid #eee;
+	padding: 30px 20px;
+}
+
+.md-form, .md-form .btn {
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.1rem !important;
+}
+
+.md-form label {
+    color: #4285f4 !important;
+    /*#757575*/
+    position: absolute;
+    top: .4rem !important;
+    margin-top: 2px !important;
+    margin-bottom:  0px !important;
+    
+    left: 0;
+    font-size: 1rem;
+    cursor: text;
+    font-weight: 500;
+    -webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    -o-transition: .2s ease-out;
+    -ms-transition: .2s ease-out;
+    transition: .2s ease-out;
+}
+
+.warning{
+    color: #9F6000;
+    background-color: #FEEFB3;
+    margin:0px;
+    position: relative;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.content-form-register{
+	width:80%;
+	display: block;
+	margin: 5px auto;
+	border: 3px solid #eee;
+	padding: 30px 20px;
+
+}
+.select-wrapper input.select-dropdown {
+    position: relative;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: 0;
+    height: 3rem;
+    line-height: 3rem;
+    width: 100%;
+    font-size: 1rem;
+    margin: 7px 0 15px;
+    padding: 0;
+    display: block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#btnCargarAseguradora{
+    display: none;
+}
+
+#mySelectRama{
+    display: block !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    width: 100% !important;
+    height: 30px !important;
+    border: 0px solid #ccc !important;
+    border-bottom: 1px solid #eee !important;
+    margin-top:15px !important;
+    background-color: transparent !important;
+
+}
+
+#mySelectAse{
+    display: block !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    width: 100% !important;
+    height: 30px !important;
+    border: 0px solid #eee !important;
+    border-bottom: 1px solid #ccc !important;
+    margin-top:15px !important;
+    background-color: transparent !important;
+}
+
+#mySelectAse select option{
+   padding: 10px !important;
+}
+
+#mySelectRama select option{
+   padding: 10px !important;
+}
+
+#mydivRama label{
+    
+    border: 0px solid red !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    margin-top: -8px !important;
+    display: block !important; 
+    color: #4285f4 !important;
+    font-weight: 600;
+}
+
+#mydivAse label{
+    
+    border: 0px solid red !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    margin-top: -8px !important;
+    display: block !important; 
+    color: #4285f4 !important;
+    font-weight: 600;
+}
+
+.double-nav .breadcrumb-dn p{
+    padding-right: 60px !important;
+}
+
+.dropdown .dropdown-menu.dd-right {
+    left: 5px !important;
+}
+
+.navbar .navbar-nav .nav-item {
+    margin-left: 0;
+    padding: 2px 10px !important;
+}
+
+
+
+header, main, footer {
+  padding-left: 0px;
+}
+
+@media only screen and (max-width : 1892px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
